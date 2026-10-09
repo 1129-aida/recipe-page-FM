@@ -35,8 +35,15 @@ ul{
     line-height: 2;
 }
 
-li::marker {
+.ingredients {
+    padding: 0 0 24px 18px;
+    border-bottom: 1px solid var(--line-color);
+    margin-bottom: 24px;
+}
+
+.ingredients li::marker {
     color: var(--accent-text);
+    font-size: 12px;
 }
 
 body {
@@ -65,14 +72,24 @@ h1 {
     font-family: "Young Serif", serif;
     font-weight: 400;
     color: var(--headline-color);
-    font-size: 40px;
+    font-size: clamp(32px, calc(29px + 1vw), 40px);
+    line-height: 1;
 }
 
 .time {
     background-color: var(--background-time);
     border-radius: 10px;
-    padding: 24px;
+    padding:24px;
     margin: 24px 0;
+}
+
+.time li::marker {
+    color: var(--text-time);
+    font-size: 12px;
+}
+
+.time ul{
+    padding-left: 18px;
 }
 
 h2 {
@@ -86,7 +103,69 @@ h4,
 h5 {
     font-family: "Young Serif", serif;
     font-weight: 400;
-    font-size: 28px;
+    font-size:  clamp(22px, calc(19px + 1vw), 28px);
     color: var(--accent-text);
     margin: 0;
+}
+
+ol {
+    padding: 0 0 24px 18px;
+    border-bottom: 1px solid var(--line-color);
+    margin-bottom: 24px;
+}
+
+ol li:not(:last-child){
+    padding-bottom: 10px;
+}
+
+ol li::marker {
+    color: var(--accent-text);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+caption {
+    text-align: start;
+    padding-bottom: 10px;
+    text-wrap: wrap;
+}
+
+th {
+    font-weight: 400;
+    padding: 10px 0 10px 30px;
+    text-align: start;
+}
+
+td {
+    color: var(--accent-text);
+    font-weight: 700;
+}
+
+tr:not(:last-child) {
+    border-bottom: 1px solid var(--line-color);
+}
+
+@media (max-width: 800px) {
+    body{
+        margin: 0;
+    }
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 0;
+    }
+    main {
+    padding: 0;
+    border-radius: 0;
+    }
+    main > :not(:first-child) {
+    margin: 20px 40px;
+    }
 }
