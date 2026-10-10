@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 </a>
 
 <a href="./Screenshot/Screenshot Mobile.png">
-  <img src="./Screenshot/Screenshot Mobile.png" alt="Mobile" height="300">
+  <img src="./Screenshot/Screenshot Mobile.png" alt="Mobile" height="500">
 </a>
 
 ### Links
