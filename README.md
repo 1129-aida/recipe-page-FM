@@ -20,6 +20,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ![Desktop](./Screenshot/Screenshot%20Desktop.jpeg)
 ![Mobile](./Screenshot/Screenshot%20Mobile.png)
+<a href="./Screenshot/Screenshot Desktop.jpeg">
+  <img src="./Screenshot/Screenshot Desktop.jpeg" alt="Desktop" width="300">
+</a>
 
 
 
