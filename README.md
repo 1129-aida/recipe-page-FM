@@ -28,8 +28,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/1129-aida/recipe-page-FM)
-- Live Site URL: [Add live site URL here](https://1129-aida.github.io/recipe-page-FM/)
+- Solution URL: [URL](https://github.com/1129-aida/recipe-page-FM)
+- Live Site URL: [live site URL](https://1129-aida.github.io/recipe-page-FM/)
 
 ## My process
 
