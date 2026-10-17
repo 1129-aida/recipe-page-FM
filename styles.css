@@ -66,6 +66,7 @@ main {
 img {
     max-width: 100%;
     border-radius: 10px;
+    height: auto;
 }
 
 h1 {
@@ -92,15 +93,15 @@ h1 {
     padding-left: 18px;
 }
 
-h2 {
+.time h2 {
     margin: 0;
     color: var(--text-time);
     font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
 }
 
-h3,
-h4,
-h5 {
+h2 {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-size:  clamp(22px, calc(19px + 1vw), 28px);
@@ -164,6 +165,7 @@ tr:not(:last-child) {
     main {
     padding: 0;
     border-radius: 0;
+    max-width: none;
     }
     main > :not(:first-child) {
     margin: 20px 40px;
